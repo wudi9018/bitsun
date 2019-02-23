@@ -11,19 +11,40 @@
 	     
 		 height:100%;
 	}
-	
+	div{ 
+	     
+		    width:100px;
+			height:50px;
+			background:black;
+			color:white;
+			font-weight:bold;
+			position:relative;
+			animation:mymove 5s infinite;
+			-webkit-animation:mymove 5s infinite; 
+	}
+	#d1 {-webkit-animation-timing-function:linear;}
 	a {text-decoration: none}
 	p.pre{font-family:"STZhongsong",Georgia,Serif}
-	@keyframes f{
-	        from(opacity:0)
-			to(opacity:100)
-	}
+	
 h1 {color:black;}
-
-p{ animation: f 3s infinite;}
-
-
-
+/*以下没用了
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {opacity:0; left:0px; top:0px;}
+25%  {opacity:25; left:100px; top:0px;}
+50%  {opacity:50; left:100px; top:200px;}
+75%  {opacity:100; left:0px; top:200px;}
+100% {opacity:0; left:0px; top:0px;}
+}
+@-webkit-keyframes mymove /* Safari and Chrome */
+{
+from {left:0px;}
+to {left:200px;}
+}
+p.ps {
+       position:relative;  
+      -moz-animation:myfirst 5s infinite; /* Firefox */
+}
 </style>
 </head>
 <body>
@@ -34,5 +55,19 @@ p{ animation: f 3s infinite;}
 石头裂为两半．可我知道，让石头裂开的不是那最后一击，</br>
 而是前面的<b>一百次</b>敲击的结果．
                      -------------<strong>雅各布·里斯</strong></p></br>
+<div class="d1">player</div>
+<p ><a href="https://nba.hupu.com/players/lamarcusaldridge-1209.html" target="_blank">LaMarcus Aldridge</a></p>
+<p class="d2"><a href="https://nba.hupu.com/players/lamarcusaldridge-1209.html" target="_blank">(DeMar DeRozan)</a></p>
+<p class="d3"><a href="https://nba.hupu.com/players/lamarcusaldridge-1209.html" target="_blank">(Rudy Gay)</a></p>
+<p class="d4"><a href="https://nba.hupu.com/players/lamarcusaldridge-1209.html" target="_blank">(Patty Mills)</a></p>
+<p class="d5"><a href="https://nba.hupu.com/players/lamarcusaldridge-1209.html" target="_blank">(Davis Bertans)</a></p>
+<p class="d6"><a href="https://nba.hupu.com/players/lamarcusaldridge-1209.html" target="_blank">(Marco Belinelli)</a></p>
+<p class="d7"><a href="https://nba.hupu.com/players/lamarcusaldridge-1209.html" target="_blank">(Bryn Forbes)</a></p>
+<p class="d8"><a href="https://nba.hupu.com/players/lamarcusaldridge-1209.html" target="_blank">(Jakob Poeltl)</a></p>
+<p class="d9"><a href="https://nba.hupu.com/players/lamarcusaldridge-1209.html" target="_blank">(Dante Cunningham)</a></p>
+<p class="d10"><a href="https://nba.hupu.com/players/lamarcusaldridge-1209.html" target="_blank">Derrick White)</a></p>
+<p class="d11"><a href="https://nba.hupu.com/players/lamarcusaldridge-1209.html" target="_blank">(Chimezie Metu)</a></p>
+<p class="d12"><a href="https://nba.hupu.com/players/lamarcusaldridge-1209.html" target="_blank">(Quincy Pondexter)</a></p>
+
 </body>
 </html>
